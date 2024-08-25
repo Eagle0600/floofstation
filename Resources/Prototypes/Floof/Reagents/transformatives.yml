@@ -1,0 +1,42 @@
+- type: reagent
+  id: SetSexFemale
+  name: reagent-name-set-sex-female
+  group: Medicine
+  desc: reagent-desc-set-sex-female
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: medicine
+  color: "#081a80"
+  metabolisms:
+    Medicine:
+      metabolismRate: 0.1
+      effects:
+      - !type:SetSex
+        sex: Female
+
+- type: reagent
+  id: AddPenis
+  name: reagent-name-add-penis
+  group: Medicine
+  desc: reagent-desc-add-penis
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: medicine
+  color: "#081a80"
+  metabolisms:
+    Medicine:
+      metabolismRate: 0.1
+      effects:
+      - !type:AddCumProducerComponent
+
+- type: reagent
+  id: RemovePenis
+  name: reagent-name-set-remove-penis
+  group: Medicine
+  desc: reagent-desc-set-remove-penis
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: medicine
+  color: "#081a80"
+  metabolisms:
+    Medicine:
+      metabolismRate: 0.1
+      effects:
+      - !type:RemoveCumProducerComponent
